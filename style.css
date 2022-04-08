@@ -1,0 +1,14 @@
+li {
+	
+	padding: 20px;
+}
+span {
+	height: 60px;
+	text-align: center;
+	width: 60px;
+	float: right;
+}
+.done {
+	color:gray;
+	text-decoration: line-through;
+}
