@@ -2,7 +2,7 @@ li {
 	
 	padding: 20px;
 }
-span {
+.trash {
 	height: 60px;
 	text-align: center;
 	width: 60px;
@@ -11,4 +11,9 @@ span {
 .done {
 	color:gray;
 	text-decoration: line-through;
+}
+
+body{
+	background-image: url("images/cube-g04f5df922_1280.png");
+        height: 100vh;
 }

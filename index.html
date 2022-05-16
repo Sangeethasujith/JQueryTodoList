@@ -20,8 +20,8 @@
 
     <div class="container py-5 h-100">
    
-           <div class="card">
-              <div class="card-body p-4">
+           <div class="card ">
+              <div class="card-body  p-4">
                 <div class="card-header">
                   <h4 class="text-center m-2">To Do App</h4>
                 </div>
@@ -31,14 +31,22 @@
                        
                       <input type="text" id="input" class="form-control" placeholder="Enter a task here"/>
                      
-                   
-                  
-                    <ul class="todolist" style="list-style: none;">
-                        <li>Learn JQuery<span><i class="fa fa-trash"></i></span></li>
-                        <li>Buy Groceries<span><i class="fa fa-trash"></i></span></li>
-                        <li>Complete development<span><i class="fa fa-trash"></i></span></li>
-                        <li>Workout<span><i class="fa fa-trash"></i></span></li>
+                      <ul class="nav nav-pills todo-nav">
+                        <li role="presentation" class="nav-item all-task"><a href="#" class="nav-link">All</a></li>
+                        <li role="presentation" class="nav-item active-task"><a href="#" class="nav-link">Active</a></li>
+                        <li role="presentation" class="nav-item completed-task"><a href="#" class="nav-link">Completed</a></li>
                     </ul>
+                    
+                    <ul class="completed-tasks"></ul>
+
+            <ul class="todolist" style="list-style: none;">
+                        <li><input class="checker me-2" type="checkbox">Learn JQuery<span class="trash"><i class="fa fa-trash"></i></span></li>
+                        <li><input class="checker me-2" type="checkbox">Buy Groceries<span class="trash"><i class="fa fa-trash"></i></span></li>
+                        <li><input class="checker me-2" type="checkbox">Complete development<span class="trash"><i class="fa fa-trash"></i></span></li>
+                        <li><input class="checker me-2" type="checkbox">Workout<span class="trash"><i class="fa fa-trash"></i></span></li>
+                    </ul>
+
+                    
             </div>  
             
         
